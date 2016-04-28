@@ -1,0 +1,17 @@
+{
+  "name": "react-123",
+  "version": "1.0.0",
+  "description": "",
+  "main": "01-hello-world.js",
+  "scripts": {
+    "clean": "rm *.jsx.js || :",
+    "compile": "for file in `ls *.jsx`; do babel $file --presets react --out-file $file.js --source-maps inline; done",
+    "serve": "python -m SimpleHTTPServer 3333"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "6.7.7",
+    "babel-preset-react": "6.5.0"
+  }
+}
