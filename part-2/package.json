@@ -80,6 +80,7 @@
   "eslintConfig": {
     "extends": "airbnb",
     "rules": {
+      "no-nested-ternary": 0,
       "arrow-body-style": 0,
       "react/jsx-no-bind": 0,
       "react/prefer-stateless-function": 0,

@@ -26,7 +26,6 @@ function TodoItem(props) {
 
 TodoItem.propTypes = {
   label: React.PropTypes.string.isRequired,
-  bel: React.PropTypes.string.isRequired,
   completed: React.PropTypes.bool.isRequired,
 };
 
