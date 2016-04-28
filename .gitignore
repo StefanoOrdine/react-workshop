@@ -1,2 +1,9 @@
+npm-debug.log
+
 part-1/node_modules
 part-1/*.jsx.js
+
+part-2/build
+part-2/node_modules
+part-2/.sass-cache
+part-2/.temp
